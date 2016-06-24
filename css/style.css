@@ -1,0 +1,60 @@
+
+.wraper {
+	width: 1280px;
+	background-color: gray;
+	/*background-image: url("../img/bg.jpg") ;*/
+	font-family: Tahoma;
+}
+.content {
+	width: 1000px;
+	margin: -2px auto;
+}
+
+.logo {
+	margin-left: 27px;
+	float: left;
+	width: 600px;
+	margin-top: 10px;
+	position: relative;
+}
+.logo p {
+	position: absolute;
+	font-size: 12px;
+	right:405px;
+	top: 100px;
+}
+.contact {
+	margin-top: 6px;
+	float: right;
+	margin-right: 32px;
+	margin-bottom: 29px;
+	font-size: 12px;
+	line-height: 19px;
+}
+.clearfix {
+	clear: both;
+}
+header {
+	background-color: #fff;
+}
+.cantry {
+	float: right;
+	margin-right: 33px;
+}
+.cantry ul li{
+	float: right;
+	width: 55px;
+
+}
+.cantry li img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.cantry a {
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	color: #128aa7;
+}
+
