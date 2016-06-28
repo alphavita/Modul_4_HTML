@@ -1,0 +1,40 @@
+.india, .nepal, .tibet, .butan, .sri-lanka, .maldives{
+	background: url(sprites.png) no-repeat;
+}
+
+.india{
+	background-position: -2px -2px ;
+	width: 45px;
+	height: 44px;
+}
+
+.nepal{
+	background-position: -48px 0;
+	width: 44px;
+	height: 44px;
+}
+
+.tibet{
+	background-position: -100px 0;
+	width: 44px;
+	height: 44px;
+}
+
+.butan{
+	background-position: -154px -1px ;
+	width: 43px;
+	height: 44px;
+}
+
+.sri-lanka{
+	background-position: -199px 0;
+	width: 45px;
+	height: 44px;
+}
+
+.maldives{
+	background-position: -252px 0;
+	width: 44px;
+	height: 44px;
+}
+
