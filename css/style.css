@@ -1,29 +1,42 @@
+html,
+body {
+  height:100%;
+}
 body {
 	margin: 0 auto;
+	/* min-height:100%;*/
+	/* position:relative;*/
+
 }
 
 
 	.wraper {
+		min-height: 100%;
+   /* position: relative;*/
 	/*width: 1270px;*/
 	/*background-color: gray;*/
 	/*background-image: url("../img/bg.jpg") ;*/
 	/* IE10+ */
-background-image: -ms-linear-gradient(top, #1297B8 0%, #1297B8 3.3%, #128AA7 3.3%, #128AA7 6.4%, #FFFFFF 6.4%, #FFFFFF 6.5%, #19CFE2 6.6%, #FBFEFE 20%, #3FC4D2 20%, #1394B2 32%, #1496b4 32%, #0C739F 100%);
+background-image: -ms-linear-gradient(top,  #128AA7 0%, #128AA7 3.1%, #FFFFFF 3.1%, #FFFFFF 3.2%, #19CFE2 3.3%, #FBFEFE 12.9%, #3FC4D2 12.9%, #1394B2 28.7%, #1496b4 28.7%, #0C739F 100%);
 
 /* Mozilla Firefox */
-background-image: -moz-linear-gradient(top, #1297B8 0%, #1297B8 3.3%, #128AA7 3.3%, #128AA7 6.4%, #FFFFFF 6.4%, #FFFFFF 6.5%, #19CFE2 6.6%, #FBFEFE 20%, #3FC4D2 20%, #1394B2 32%, #1496b4 32%, #0C739F 100%);
+background-image: -moz-linear-gradient(top, #128AA7 0%, #128AA7 3.1%, #FFFFFF 3.1%, #FFFFFF 3.2%, #19CFE2 3.3%, #FBFEFE 12.9%, #3FC4D2 12.9%, #1394B2 28.7%, #1496b4 28.7%, #0C739F 100%);
+
 
 /* Opera */
-background-image: -o-linear-gradient(top, #1297B8 0%, #1297B8 3.3%, #128AA7 3.3%, #128AA7 6.4%, #FFFFFF 6.4%, #FFFFFF 6.5%, #19CFE2 6.6%, #FBFEFE 20%, #3FC4D2 20%, #1394B2 32%, #1496b4 32%, #0C739F 100%);
+background-image: -o-linear-gradient(top,#128AA7 0%, #128AA7 3.1%, #FFFFFF 3.1%, #FFFFFF 3.2%, #19CFE2 3.3%, #FBFEFE 12.9%, #3FC4D2 12.9%, #1394B2 28.7%, #1496b4 28.7%, #0C739F 100%);
+
 
 /* Webkit (Safari/Chrome 10) */
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1297B8), color-stop(3.3, #1297B8), color-stop(3.3, #128AA7), color-stop(6.4, #128AA7), color-stop(6.4, #FFFFFF), color-stop(6.5, #FFFFFF), color-stop(6.6, #19CFE2), color-stop(20, #FBFEFE), color-stop(20, #3FC4D2), color-stop(32, #1394B2), color-stop(32, #1496b4), color-stop(100, #0C739F));
+background-image: -webkit-gradient(linear, left top, left bottom,  color-stop(0, #128AA7), color-stop(0, #128AA7), color-stop(3.1, #FFFFFF), color-stop(3.2 #FFFFFF), color-stop(3.3, #19CFE2), color-stop(12.9, #FBFEFE), color-stop(12.9, #3FC4D2), color-stop(28.7, #1394B2), color-stop(28.7 #1496b4), color-stop(100, #0C739F));
 
 /* Webkit (Chrome 11+) */
-background-image: -webkit-linear-gradient(top, #1297B8 0%, #1297B8 3.3%, #128AA7 3.3%, #128AA7 6.4%, #FFFFFF 6.4%, #FFFFFF 6.5%, #19CFE2 6.6%, #FBFEFE 20%, #3FC4D2 20%, #1394B2 32%, #1496b4 32%, #0C739F 100%);
+/*background-image: -webkit-linear-gradient(top,#128AA7 0%, #128AA7 3.1%, #FFFFFF 3.1%, #FFFFFF 3.2%, #19CFE2 3.3%, #FBFEFE 12.9%, #3FC4D2 12.9%, #1394B2 28.7%, #1496b4 28.7%, #0C739F 100%);
+
 
 /* W3C Markup */
-background-image: linear-gradient(to bottom, #1297B8 0%, #1297B8 3.3%, #128AA7 3.3%, #128AA7 6.4%, #FFFFFF 6.4%, #FFFFFF 6.5%, #19CFE2 6.6%, #FBFEFE 20%, #3FC4D2 20%, #1394B2 32%, #1496b4 32%, #0C739F 100%);
+background-image: linear-gradient(to bottom,#128AA7 0%, #128AA7 3.1%, #FFFFFF 3.1%, #FFFFFF 3.2%, #19CFE2 3.3%, #FBFEFE 12.9%, #3FC4D2 12.9%, #1394B2 28.7%, #1496b4 28.7%, #0C739F 100%);
+
 	font-family: Tahoma;
 	margin: o auto;
 	position: relative;
@@ -130,6 +143,10 @@ header {
 	width: 44px;
 	height: 44px;
 }
+.baner img {
+	border-top: 1px solid #138aa7;
+	border-bottom: 1px solid #138aa7;
+}
 
 
 .cantry a {
@@ -145,6 +162,7 @@ ul.menu {
     padding: 0;
     list-style: none;
     background-color: #323232;
+    border-bottom: 1px solid #000;
 
 
     /*backround-image: url('../img/triangle.png');*/
@@ -185,7 +203,7 @@ ul.submenu {
     position: absolute;
      padding-bottom: 4px;
     width: 140px;
-    top: 24px;
+    top: 26px;
     left: 0;
     background-color: #333333;
     -webkit-box-shadow: 2px 5px 14px -1px rgba(0,0,0,0.67);
@@ -227,7 +245,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4eacda', end
 	width: 1000px; /* ширина трех блоков */
 	background: url(../img/fon.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */
 	float: left	; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
-	padding-bottom: 12px;
+	padding-bottom: 14px;
 	border-bottom: 1px solid black;
 }
 .left_col {
@@ -252,6 +270,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4eacda', end
 	line-height: 24px;
 }
 footer h3 {
+	/*position:absolute;
+	bottom:0;
+	width:100%;*/
+
+	/*left: 0;
+    bottom: 0;
+    width: 100%;*/
+	height: 14px;
+	/*margin-top:  -14px;*/
 	text-align: center;
 	padding: 10px;
 	color: #fff;
